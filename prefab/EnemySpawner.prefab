@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6902512817671934790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6902512817671934648}
+  - component: {fileID: 6902512817671934791}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6902512817671934648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902512817671934790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.53609365, y: -1.3685743, z: 6.6875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6902512817671934791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902512817671934790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e72c244ecde6fb4989042b8b79d8ef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: d072e85cb93a0db46be82f338256f0ae, type: 2}
+  - {fileID: 11400000, guid: d52dd9d92e8d05c4db8211bd841f74be, type: 2}
+  - {fileID: 11400000, guid: ff95248379e9a8944b1608d771f62ad5, type: 2}
+  - {fileID: 11400000, guid: 1252f4619a7e3e64b89809adee4f6de4, type: 2}
+  - {fileID: 11400000, guid: e0d0fac25f0a0a246becfba1e477d368, type: 2}
+  - {fileID: 11400000, guid: ef94d7f4dfb72c642b4d55c9e4adef79, type: 2}
+  - {fileID: 11400000, guid: 0ad287423cb70e54eb1ac2419d5ccded, type: 2}
+  - {fileID: 11400000, guid: 01733b5d9decd7d40a6c89728e3e16fe, type: 2}
+  - {fileID: 11400000, guid: cbfde86643b25a744a2a281919eb4546, type: 2}
+  startingWave: 0
+  looping: 0
